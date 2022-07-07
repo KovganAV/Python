@@ -13,7 +13,7 @@ t.shape('turtle')
 t.screen.setup(1000, 1000)
 while True:
     q = str(input())
-    if q == "g":                                             # смена цвета
+    if q == "g":                                           
         a = random.randint(0, 5)
         if a == 1:
             color = str("green")
